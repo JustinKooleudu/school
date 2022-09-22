@@ -1,27 +1,48 @@
-h1{
+h1 {
     font-size: 24px;
     color: blue;
     font-weight: bold;
-    font-style:italic;
+    font-style: italic;
 }
-h2{
+
+h2 {
     font-size: 20px;
     color: #0000ff;
     font-weight: bold;
 }
-h3{
+
+h3 {
     font-size: 16px;
-    color:teal;
+    color: teal;
     font-weight: bold;
 }
-p{
-    color:#4d4d4d;
+
+p {
+    color: #4d4d4d;
+    border: 2px solid blue;
+    border-radius: 8px;
+    border-left-width: 5px;
 }
-p1{
+
+p1 {
     color: #4d4d4d;
     font-weight: bold;
 }
-a{
+a {
     color: #8A2BE2;
     text-decoration: none;
+}
+
+header {
+    width: auto;
+    height: 405px;
+    background-image: url(https://preview.redd.it/f8qj9x2ivmb51.png?width=960&crop=smart&auto=webp&s=eba5d0e4341f04526ad31d6d75105eeb4272fdd2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img {
+    width: 50%;
+    height: 50%;
 }
