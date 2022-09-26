@@ -12,9 +12,15 @@ html {
 
 body {
   font-family: "Goldman", cursive;
-  margin: 0;  padding: 0;
+  margin: 10px;  padding: 10px;
   background-color: black;
   color: white;
+  height: 100vh;
+  padding: auto;
+}
+
+h1 {
+  text-align: center;
 }
 
 .subbody {
@@ -22,6 +28,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  height: 100vh;
   margin: 0;
   padding: 0;
   width: auto;
@@ -36,11 +43,14 @@ footer {
   right: 0;
   bottom: 0;
   position: fixed;
+  text-align: center;
+  margin: auto; border: 10px; padding: auto;
 }
 
 nav {
   display: flex;
   width: auto;
+  height: 10vh;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
@@ -51,6 +61,7 @@ nav {
   left: 0;
   right: 0;
   top: 0;
+  position: fixed;
 }
 
 nav ul {
@@ -82,4 +93,8 @@ nav img {
 .tekst2 {
   font-size: 24px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  float: right;
 }
