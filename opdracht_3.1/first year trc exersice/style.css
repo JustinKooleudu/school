@@ -15,7 +15,7 @@ body {
   margin: 10px;  padding: 10px;
   background-color: black;
   color: white;
-  height: 100vh;
+  height: auto;
   padding: auto;
 }
 
@@ -45,6 +45,7 @@ footer {
   position: fixed;
   text-align: center;
   margin: auto; border: 10px; padding: auto;
+  text-size-adjust: 30px;
 }
 
 nav {
@@ -95,6 +96,9 @@ nav img {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
+.img1 {
+  float: left;
+}
+.img2 {
   float: right;
 }
