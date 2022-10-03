@@ -1,0 +1,36 @@
+body{
+    max-width: 1200px;
+}
+.blue{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+.black{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+.orange{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.green{
+    background-color: green;
+    color: green;
+    height: 200px;
+    width: 200px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
