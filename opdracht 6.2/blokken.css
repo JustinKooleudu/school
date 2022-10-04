@@ -35,7 +35,3 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
-.topnav{
-    display: flex;
-    justify-self: center;
-}

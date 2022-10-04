@@ -1,0 +1,8 @@
+body{
+    max-width: 1200px;
+    text-size-adjust: 48px;
+}
+.topnav{
+    display: flex;
+    justify-self: center;
+}
