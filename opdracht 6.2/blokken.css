@@ -28,8 +28,10 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
 }
 .ul2{
+    list-style: none;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
