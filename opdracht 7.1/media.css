@@ -1,15 +1,70 @@
-body {
-    background-color: lightblue;
+nav {
+    width: auto;
+    height: 10%;
 }
-  
-@media screen and (min-width: 400px) {
-    body {
-      background-color: lightgreen;
+#1 {
+    width: auto;
+    height: 30%;
+    background-color: aqua;
+}
+#2 {
+    width: auto;
+    height: 30%;
+}
+#3 {
+    width: auto;
+    height: 30%;
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style: none;
+    #1 {
+        background-color: aqua;
+    }
+    #2 {
+        background-color: ;
+    }
+    #3 {
+        background-color: ;
+    }
     }
 }
-  
-@media screen and (min-width: 800px) {
-    body {
-      background-color: rgb(91, 91, 248);
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        #1 {
+            background-color: ;
+        }
+        #2 {
+            background-color: ;
+        }
+        #3 {
+            background-color: ;
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        #1 {
+            background-color: ;
+        }
+        #2 {
+            background-color: ;
+        }
+        #3 {
+            background-color: ;
+        }
     }
 }
