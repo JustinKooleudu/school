@@ -2,69 +2,65 @@ nav {
     width: auto;
     height: 10%;
 }
-#1 {
+
+@media screen and (max-width: 576px) {
+    .section1 {
+    display: block;
     width: auto;
     height: 30%;
     background-color: aqua;
-}
-#2 {
-    width: auto;
-    height: 30%;
-}
-#3 {
-    width: auto;
-    height: 30%;
-}
-
-@media screen and (max-width: 576px) {
-    .menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        list-style: none;
-    #1 {
-        background-color: aqua;
     }
-    #2 {
-        background-color: ;
+    .section2 {
+        display: block;
+        width: auto;
+        height: 30%;
+        background-color: plum;
     }
-    #3 {
-        background-color: ;
-    }
+    .section3 {
+        display: block;
+        width: auto;
+        height: 30%;
+        background-color: rgb(121, 37, 163);
     }
 }
 
 @media screen and (max-width: 768px) {
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style: none;
-        #1 {
-            background-color: ;
+    .section1 {
+        display: block;
+        width: auto;
+        height: 30%;
+        background-color: red;
         }
-        #2 {
-            background-color: ;
+        .section2 {
+            display: block;
+            width: auto;
+            height: 30%;
+            background-color: blueviolet;
         }
-        #3 {
-            background-color: ;
+        section3 {
+            display: block;
+            width: auto;
+            height: 30%;
+            background-color: blue;
         }
-    }
 }
 @media screen and (max-width: 992px) {
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style: none;
-        #1 {
-            background-color: ;
+    .section1 {
+        display: block;
+        width: auto;
+        height: 30%;
+        background-color: yellow;
         }
-        #2 {
-            background-color: ;
+        #section2 {
+            display: block;
+            width: auto;
+            height: 30%;
+            background-color: orange;
         }
-        #3 {
-            background-color: ;
+        section3 {
+            display: block;
+            width: auto;
+            height: 30%;
+            background-color: green;
         }
-    }
 }
