@@ -7,3 +7,9 @@ function calculator(num, num2) {
     let answer = num + num2;
     console.log(answer)
 }
+
+function multiplybyfive () {
+    let answer = num * 5;
+    prompt("")
+    console.log(answer)
+}
