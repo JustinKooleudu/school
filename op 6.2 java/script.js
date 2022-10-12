@@ -8,8 +8,8 @@ function calculator(num, num2) {
     console.log(answer)
 }
 
-function multiplybyfive () {
+function multiplybyfive (num) {
     let answer = num * 5;
-    prompt("")
     console.log(answer)
+    alert("35")
 }
