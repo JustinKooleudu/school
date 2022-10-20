@@ -8,12 +8,3 @@ function budget() {
         alert("Helaas, te weinig geld")
     }
 }
-
-function clicker () {
-    if (Num > 10) {
-        set num to 0
-    }
-    else (num + 1) {
-        
-    }
-}
